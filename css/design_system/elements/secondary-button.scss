@@ -1,17 +1,16 @@
 /**
- * @title Button
+ * @title Secondary Button
  * @category elements
  * @status draft
  * @description Our basic button
  *  Some more description
  *
  * @example
- * <button class="button">
+ * <button class="secondary-button">
  *   Click me
  * </button>
  */
-.button {
-  font-weight: var(--s-font-weight-heavy);
+.secondary-button {
   border: none;
   border-radius: 50px;
   font-size: 14px;
@@ -20,4 +19,7 @@
   text-transform: uppercase;
   padding: 18px 40px 12px;
   display: inline-block;
+  color: var(--s-color-gray-700);
+  background-color: var(--s-color-gray-100);
+  border: 2px solid var(--s-color-gray-700);
 }
