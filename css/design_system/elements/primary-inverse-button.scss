@@ -1,0 +1,24 @@
+/**
+ * @title Primary Inverse Button
+ * @category elements
+ * @status draft
+ * @description Our basic button
+ *  Some more description
+ *
+ * @example
+ * <button class="s-button-primary-inverse">
+ *   Click me
+ * </button>
+ */
+.s-button-primary-inverse {
+  border: none;
+  border-radius: 50px;
+  font-size: 14px;
+  letter-spacing: .5px;
+  line-height: 17px;
+  text-transform: uppercase;
+  padding: 18px 40px 12px;
+  display: inline-block;
+  color: var(--s-color-cyan-400);
+  background-color: var(--s-color-cyan-700);
+}
